@@ -1,33 +1,66 @@
-# Agrinho2025-Sustentabilidade# Impacto do Desmatamento
+# 🌱 Ameaças ao Meio Ambiente
 
-Este projeto é uma página web informativa sobre os impactos do desmatamento no meio ambiente e na qualidade de vida das pessoas. Através de uma abordagem visual e clara, o conteúdo é dividido em seções que explicam os problemas causados pela destruição das florestas, suas consequências e as ações necessárias para mitigar seus efeitos.
+Este projeto é uma página web educativa que aborda as principais ameaças ao meio ambiente, com foco no **desmatamento**, **poluição** e **queimadas ilegais**. Por meio de um layout limpo e informativo, o site tem como objetivo conscientizar os usuários sobre os impactos ambientais e incentivar a preservação da natureza.
+
+---
+
+## 🧩 Objetivo
+
+Informar de forma simples e visual sobre:
+- As causas da degradação ambiental;
+- Os impactos ecológicos e sociais;
+- As soluções e ações sustentáveis possíveis.
+
+---
 
 ## 🌐 Tecnologias Utilizadas
-- HTML
-- CSS
-- Google Fonts
 
-## 📁 Estrutura
-- `index.html`: Estrutura da página.
-- `style.css`: Estilo da página.
-- `cataratas-do-iguacu.jpg`: Imagem utilizada.
-- `README.md`: Documentação do projeto.
+- **HTML** – Estrutura da página
+- **CSS** – Estilização e responsividade
+- **Google Fonts** – Tipografia moderna
+- **YouTube** – Inclusão de vídeo explicativo
 
-## 📌 Seções do site
-- **Problemas**: enchentes, calor excessivo, qualidade de vida.
-- **Consequências**: mudanças climáticas, saúde, economia.
-- **Conclusão**: necessidade de ação e sustentabilidade.
+---
+---
 
-## 📺 Vídeos
-- Inclusão de vídeos do YouTube para contextualização.
+## 📌 Seções do Site
+
+### 🔍 Causas
+- Desmatamento para agricultura e extração
+- Poluição atmosférica de indústrias e veículos
+- Queimadas criminosas para "limpeza" de solo
+
+### ⚠️ Impactos
+- Perda da biodiversidade
+- Aumento do aquecimento global
+- Doenças respiratórias e poluição da água
+- Redução da qualidade de vida urbana e rural
+
+### 🌿 Soluções
+- Adoção de práticas sustentáveis
+- Reflorestamento e preservação de áreas verdes
+- Leis ambientais mais rigorosas
+- Educação e conscientização da população
+
+---
+
+## 📺 Vídeo Educativo
+
+> Um vídeo do YouTube foi incorporado para ilustrar visualmente os impactos e possíveis soluções relacionadas à degradação ambiental.
+
+---
 
 ## 📱 Responsividade
-- O site se adapta a diferentes tamanhos de tela, incluindo smartphones.
 
-## 🧠 Como usar
-1. Clone o repositório ou baixe os arquivos.
-2. Abra `index.html` no navegador.
-3. Explore o conteúdo!
+A página é totalmente responsiva, adaptando-se bem a **celulares**, **tablets** e **computadores**.
 
-## ✅ Licença
-MIT License
+---
+
+## 👤 Autor
+Desenvolvido por:
+Leeco252
+🔗 GitHub
+
+
+
+
