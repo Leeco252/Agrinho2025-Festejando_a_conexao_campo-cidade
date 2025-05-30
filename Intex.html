@@ -1,72 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ameaças ao Meio Ambiente</title>
+    <title>Festejando a Conexão Campo-Cidade</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Ameaças ao Meio Ambiente</h1>
-        <img src="floresta-devastada.jpg" alt="Imagem de uma floresta parcialmente desmatada com fumaça ao fundo.">
-        <p>A poluição, as queimadas e o desmatamento ameaçam a sobrevivência de diversas espécies e desequilibram ecossistemas inteiros.</p>
-        <nav>
-            <ul>
-                <li><a href="#causas">Causas</a></li>
-                <li><a href="#impactos">Impactos</a></li>
-                <li><a href="#solucoes">Soluções</a></li>
-            </ul>
-        </nav>
+        <h1>Festejando a Conexão Campo-Cidade</h1>
     </header>
 
-    <main> 
-        <section id="causas" class="conteudo">
-            <h2>Causas dos Problemas Ambientais</h2>
+    <section id="apresentacao">
+        <h2>Apresentação</h2>
+        <p>O campo e a cidade são partes fundamentais da nossa vida. Ao celebrar essa conexão, reconhecemos as contribuições mútuas que moldam a sociedade moderna.</p>
+        <button onclick="mostrarMais('maisApresentacao')">Mostrar mais</button>
+        <div id="maisApresentacao" class="escondido">
+            <p>Essa relação impulsiona a economia, a cultura e a qualidade de vida. O campo alimenta a cidade, enquanto a cidade distribui e valoriza o que é produzido.</p>
+        </div>
+    </section>
 
-            <article>
-                <h3>Desmatamento desenfreado</h3>
-                <p>Milhares de hectares de floresta são perdidos anualmente para agricultura e mineração, prejudicando o equilíbrio natural.</p>
-            </article>
+    <section id="desenvolvimento">
+        <h2>Desenvolvimento</h2>
+        <p>Com o passar do tempo, novas formas de integração entre campo e cidade surgiram, como feiras urbanas, produtos artesanais e turismo rural.</p>
+        <button onclick="mostrarMais('maisDesenvolvimento')">Mostrar mais</button>
+        <div id="maisDesenvolvimento" class="escondido">
+            <p>Além disso, pequenas ações conscientes em ambos os ambientes já representam um passo para um mundo mais equilibrado.</p>
+        </div>
+        <div class="video">
+            <p>Veja como essa conexão acontece na prática:</p>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank" class="btn-video">Ver Vídeo</a>
+        </div>
+    </section>
 
-            <article>
-                <h3>Poluição atmosférica</h3>
-                <p>Veículos, indústrias e queimadas lançam gases tóxicos na atmosfera, agravando o efeito estufa e doenças respiratórias.</p>
-            </article>
-
-            <article>
-                <h3>Queimadas ilegais</h3>
-                <p>Focos de incêndio são usados para limpar áreas, mas destroem habitats, matam animais e poluem o ar.</p>
-            </article>
-
-            <a href="https://www.youtube.com/watch?v=8Nf6rDHDgso" class="cta-button" target="_blank">
-                Veja como isso nos afeta <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-        </section>
-
-        <section id="impactos" class="conteudo">
-            <h2>Principais Impactos</h2>
-            <ul>
-                <li>Extinção de espécies nativas</li>
-                <li>Alterações climáticas severas</li>
-                <li>Secas prolongadas e escassez hídrica</li>
-                <li>Poluição do ar e da água</li>
-                <li>Doenças e problemas respiratórios</li>
-                <li>Perda de território para povos indígenas</li>
-            </ul>
-        </section>
-
-        <section id="solucoes" class="conteudo">
-            <h2>Possíveis Soluções</h2>
-            <p>Para preservar o meio ambiente, precisamos de políticas públicas eficazes, consumo consciente, educação ambiental e incentivo a práticas sustentáveis.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/W9N_n5v3A7k" title="YouTube video" allowfullscreen></iframe>
-        </section>
-    </main>
+    <section id="conclusao">
+        <h2>Conclusão</h2>
+        <p>Fortalecer o elo entre campo e cidade é construir caminhos para uma convivência mais justa, respeitosa e integrada.</p>
+        <div class="video">
+            <p>Mais exemplos dessa troca no dia a dia:</p>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank" class="btn-video">Ver Vídeo</a>
+        </div>
+    </section>
 
     <footer>
-        <p>Projeto educativo voltado à conscientização ambiental.</p>
-        <p>Desenvolvido por <a href="https://github.com/Leeco252" target="_blank">@Leeco252</a></p>
-        <p>2025 | Direitos reservados</p>
+        <p>Desenvolvido por <a href="https://github.com/Leeco252" target="_blank">Leeco252</a> - 2025</p>
     </footer>
+
+    <script>
+        function mostrarMais(id) {
+            const elemento = document.getElementById(id);
+            elemento.classList.toggle("escondido");
+        }
+    </script>
 </body>
 </html>

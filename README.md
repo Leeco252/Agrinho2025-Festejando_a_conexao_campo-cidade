@@ -1,65 +1,33 @@
-# 🌱 Ameaças ao Meio Ambiente
+# 🌾 Festejando a Conexão Campo-Cidade
 
-Este projeto é uma página web educativa que aborda as principais ameaças ao meio ambiente, com foco no **desmatamento**, **poluição** e **queimadas ilegais**. Por meio de um layout limpo e informativo, o site tem como objetivo conscientizar os usuários sobre os impactos ambientais e incentivar a preservação da natureza.
+Este é um site simples e informativo criado como parte do projeto **Agrinho 2025**, com o tema **“Festejando a Conexão Campo-Cidade”**. Ele celebra a relação entre o meio rural e urbano, destacando como essas realidades se complementam no cotidiano — com uma leve menção à importância de pequenas atitudes sustentáveis.
 
----
+## 🚀 Funcionalidades
 
-## 🧩 Objetivo
+- Seções: Apresentação, Desenvolvimento e Conclusão
+- Botões que revelam conteúdo extra (sem recarregar a página)
+- Links para vídeos relacionados no YouTube
+- Rodapé com assinatura personalizada e link para GitHub
+- Layout responsivo e visualmente agradável
 
-Informar de forma simples e visual sobre:
-- As causas da degradação ambiental;
-- Os impactos ecológicos e sociais;
-- As soluções e ações sustentáveis possíveis.
+## 📁 Estrutura do Projeto
 
----
+Agrinho2025-Festejando_a_conexao_campo-cidade/
+├── index.html # Página principal do site
+├── style.css # Estilização visual (CSS)
+└── README.md # Documentação do projeto
 
-## 🌐 Tecnologias Utilizadas
 
-- **HTML** – Estrutura da página
-- **CSS** – Estilização e responsividade
-- **Google Fonts** – Tipografia moderna
-- **YouTube** – Inclusão de vídeo explicativo
+## 🧰 Códigos Utilizados
 
----
----
+- HTML
+- CSS
 
-## 📌 Seções do Site
-
-### 🔍 Causas
-- Desmatamento para agricultura e extração
-- Poluição atmosférica de indústrias e veículos
-- Queimadas criminosas para "limpeza" de solo
-
-### ⚠️ Impactos
-- Perda da biodiversidade
-- Aumento do aquecimento global
-- Doenças respiratórias e poluição da água
-- Redução da qualidade de vida urbana e rural
-
-### 🌿 Soluções
-- Adoção de práticas sustentáveis
-- Reflorestamento e preservação de áreas verdes
-- Leis ambientais mais rigorosas
-- Educação e conscientização da população
-
----
-
-## 📺 Vídeo Educativo
-
-> Um vídeo do YouTube foi incorporado para ilustrar visualmente os impactos e possíveis soluções relacionadas à degradação ambiental.
-
----
-
-## 📱 Responsividade
-
-A página é totalmente responsiva, adaptando-se bem a **celulares**, **tablets** e **computadores**.
-
----
-
-## 👤 Autor
+## ▶️ Autor 👤 
 Desenvolvido por:
 Leeco252
 🔗 GitHub
+2025
 
 
 
