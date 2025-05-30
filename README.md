@@ -23,7 +23,7 @@ Agrinho2025-Festejando_a_conexao_campo-cidade/
 - HTML
 - CSS
 
-## ▶️ Autor 👤 
+## ▶️ Autor 13👤 
 Desenvolvido por:
 Leeco252
 🔗 GitHub
