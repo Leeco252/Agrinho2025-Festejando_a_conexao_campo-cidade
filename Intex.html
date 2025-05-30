@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Festejando a Conexão Campo-Cidade</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festejando a Conexão Campo-Cidade</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Festejando a Conexão Campo-Cidade</h1>
-    </header>
 
-    <section id="apresentacao">
-        <h2>Apresentação</h2>
-        <p>O campo e a cidade são partes fundamentais da nossa vida. Ao celebrar essa conexão, reconhecemos as contribuições mútuas que moldam a sociedade moderna.</p>
-        <button onclick="mostrarMais('maisApresentacao')">Mostrar mais</button>
-        <div id="maisApresentacao" class="escondido">
-            <p>Essa relação impulsiona a economia, a cultura e a qualidade de vida. O campo alimenta a cidade, enquanto a cidade distribui e valoriza o que é produzido.</p>
-        </div>
-    </section>
+  <header>
+    <h1>Festejando a Conexão Campo-Cidade</h1>
+  </header>
 
-    <section id="desenvolvimento">
-        <h2>Desenvolvimento</h2>
-        <p>Com o passar do tempo, novas formas de integração entre campo e cidade surgiram, como feiras urbanas, produtos artesanais e turismo rural.</p>
-        <button onclick="mostrarMais('maisDesenvolvimento')">Mostrar mais</button>
-        <div id="maisDesenvolvimento" class="escondido">
-            <p>Além disso, pequenas ações conscientes em ambos os ambientes já representam um passo para um mundo mais equilibrado.</p>
-        </div>
-        <div class="video">
-            <p>Veja como essa conexão acontece na prática:</p>
-            <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank" class="btn-video">Ver Vídeo</a>
-        </div>
-    </section>
+  <div class="imagem-topo">
+    <img src="https://images.unsplash.com/photo-1609585005129-3e4b7db3426f" alt="Campo e cidade conectados">
+  </div>
 
-    <section id="conclusao">
-        <h2>Conclusão</h2>
-        <p>Fortalecer o elo entre campo e cidade é construir caminhos para uma convivência mais justa, respeitosa e integrada.</p>
-        <div class="video">
-            <p>Mais exemplos dessa troca no dia a dia:</p>
-            <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank" class="btn-video">Ver Vídeo</a>
-        </div>
-    </section>
+  <section id="apresentacao">
+    <h2>Apresentação</h2>
+    <p>A conexão entre campo e cidade está presente em cada refeição, em cada produto que consumimos e nas tradições que nos moldam. Embora diferentes em paisagem e rotina, campo e cidade compartilham uma interdependência poderosa.</p>
+    <button onclick="mostrarMais('maisApresentacao', this)">Ver mais</button>
+    <div id="maisApresentacao" class="escondido">
+      <p>Historicamente, o campo sempre alimentou os centros urbanos, enquanto a cidade impulsionou o desenvolvimento com ciência, logística e inovação. Essa troca fortalece o desenvolvimento sustentável e social, aproximando culturas e realidades.</p>
+      <p>Eventos, feiras e programas educacionais ajudam a manter viva essa ponte, fazendo com que as novas gerações entendam a importância de respeitar e valorizar as raízes do interior e o potencial das cidades.</p>
+    </div>
+  </section>
 
-    <footer>
-        <p>Desenvolvido por <a href="https://github.com/Leeco252" target="_blank">Leeco252</a> - 2025</p>
-    </footer>
+  <section id="desenvolvimento">
+    <h2>Desenvolvimento</h2>
+    <p>Fortalecer a integração campo-cidade é investir em um Brasil mais justo. Quando produtos do campo são valorizados, gera-se renda e qualidade de vida. E quando a cidade consome com consciência, ela se torna parceira dessa transformação.</p>
+    <button onclick="mostrarMais('maisDesenvolvimento', this)">Ver mais</button>
+    <div id="maisDesenvolvimento" class="escondido">
+      <p>O turismo rural, o cooperativismo e as feiras livres são exemplos claros dessa conexão. Eles trazem o produtor para perto do consumidor, criam vínculos humanos e culturais, e garantem que os recursos circulem de forma equilibrada.</p>
+      <p>A tecnologia também desempenha um papel essencial. Cidades inteligentes e zonas rurais conectadas formam uma aliança moderna que preserva o passado e abraça o futuro.</p>
+    </div>
+    <div class="video">
+      <p>Veja um exemplo real dessa parceria:</p>
+      <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank" class="btn-video">Ver Vídeo</a>
+    </div>
+  </section>
 
-    <script>
-        function mostrarMais(id) {
-            const elemento = document.getElementById(id);
-            elemento.classList.toggle("escondido");
-        }
-    </script>
+  <section id="impactos">
+    <h2>Campo, Cidade e os Desafios Ambientais</h2>
+    <p>Apesar da beleza dessa conexão, ela é ameaçada por práticas predatórias como queimadas ilegais e desperdício de recursos.</p>
+    <button onclick="mostrarMais('maisImpactos', this)">Ver mais</button>
+    <div id="maisImpactos" class="escondido">
+      <p>As queimadas afetam diretamente o ar das cidades e a fertilidade do solo. Isso compromete colheitas, a saúde da população e causa desequilíbrios climáticos. Soluções precisam vir tanto do campo quanto da cidade: fiscalização, educação e responsabilidade coletiva.</p>
+      <p>Sustentabilidade, aqui, não é só um conceito, mas uma ação diária que parte do respeito entre os ambientes. Reduzir o uso de plástico, comprar direto do produtor e evitar o desperdício são pequenas atitudes com grande impacto.</p>
+    </div>
+  </section>
+
+  <section id="conclusao">
+    <h2>Conclusão</h2>
+    <p>Conectar o campo e a cidade é mais do que um movimento: é um compromisso com o presente e o futuro. Ao reconhecer o valor de cada espaço, criamos uma sociedade mais forte, consciente e integrada.</p>
+    <button onclick="mostrarMais('maisConclusao', this)">Ver mais</button>
+    <div id="maisConclusao" class="escondido">
+      <p>A cidade precisa do campo para existir. O campo precisa da cidade para crescer. Quando ambos colaboram e se respeitam, todos ganham: o povo, a natureza e o país.</p>
+    </div>
+    <div class="video">
+      <p>Veja mais práticas que reforçam essa união:</p>
+      <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank" class="btn-video">Ver Vídeo</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por <a href="https://github.com/Leeco252" target="_blank">Leeco252</a> - 2025</p>
+  </footer>
+
+  <script>
+    function mostrarMais(id, botao) {
+      const conteudo = document.getElementById(id);
+      const visivel = !conteudo.classList.contains('escondido');
+      conteudo.classList.toggle('escondido');
+      botao.textContent = visivel ? 'Ver mais' : 'Ver menos';
+    }
+  </script>
+
 </body>
 </html>
